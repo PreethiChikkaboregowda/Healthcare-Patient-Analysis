@@ -1,5 +1,5 @@
 
- # 🏥 Healthcare Patient Analytics: End-to-End Data Analysis & Interactive Dashboard
+ # 🏥Healthcare Patient Analytics: End-to-End Data Analysis & Interactive Dashboard
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python) ![Pandas](https://img.shields.io/badge/Pandas-Data%20Cleaning-lightblue) ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange) ![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-teal) ![Excel](https://img.shields.io/badge/Microsoft%20Excel-Dashboard-green?logo=microsoft-excel)
 
