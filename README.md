@@ -4,6 +4,147 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python) ![Pandas](https://img.shields.io/badge/Pandas-Data%20Cleaning-lightblue) ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange) ![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-teal) ![Excel](https://img.shields.io/badge/Microsoft%20Excel-Dashboard-green?logo=microsoft-excel)
 
 ---
+# 🏥 Healthcare Data Analysis & Dashboard
+
+## 📌 Project Overview
+This project performs an end-to-end **Healthcare Data Analysis** using Python and Excel to uncover insights on patient demographics, hospital utilization, medical conditions, billing patterns, and insurance trends.
+
+It includes:
+- Data cleaning and feature engineering in **Python**
+- Exploratory Data Analysis (EDA) with visualizations
+- KPI generation for healthcare performance tracking
+- An interactive **Excel dashboard** built on the cleaned dataset
+
+The objective is to help stakeholders understand **cost drivers, patient trends, and operational metrics** for better decision-making.
+
+---
+
+## 🎯 Objectives
+- Clean and standardize raw healthcare data  
+- Analyze **Length of Stay (LOS)**, billing, and admission trends  
+- Identify **high-cost medical conditions**  
+- Compare **insurance provider performance**  
+- Examine **demographic patterns** (age, gender, blood type)  
+- Build KPI summaries for hospital management  
+- Deliver an **Excel dashboard** for business users  
+
+---
+
+## 🗂️ Dataset Description
+The dataset contains patient-level hospital records, including:
+
+- **Demographics:** Name, Age, Gender, Blood Type  
+- **Clinical:** Medical Condition, Test Results, Medication  
+- **Administrative:** Admission Type, Doctor, Hospital  
+- **Financial:** Billing Amount, Insurance Provider  
+- **Dates:** Admission Date, Discharge Date  
+
+### 🧮 Engineered Features
+- **Length of Stay (LOS)** → Discharge Date − Admission Date  
+- **Age Groups** → 10-year bands  
+- **Admission Month & Year** → for trend analysis  
+
+---
+
+## 🧹 Data Cleaning Steps
+- Removed duplicate records  
+- Filtered negative billing values  
+- Standardized categorical text fields  
+- Converted date columns to datetime  
+- Rounded billing values for financial consistency  
+
+A cleaned dataset was exported for reuse in Excel.
+
+---
+
+## 📊 Exploratory Data Analysis
+
+### Key Analyses Performed
+- Distribution of **Age** and **Billing Amount**  
+- Most common **Medical Conditions** and **Medications**  
+- **Admission Type** comparison (Emergency vs Urgent vs Elective)  
+- **Insurance Provider** cost analysis  
+- **Test Result outcomes** by condition  
+- **Correlation** between Age, LOS, and Billing  
+
+### Visualizations
+- Average billing by medical condition (bar chart)  
+- Test result distribution (stacked bar)  
+- Monthly & yearly admission trends (line charts)  
+- Billing variability (boxplots)  
+- Age vs condition heatmap  
+- Gender distribution across age groups  
+- Admission type share (donut chart)  
+
+---
+
+## 📈 KPI Metrics Generated
+
+### By Medical Condition
+- Average Length of Stay  
+- Average Billing Amount  
+- Patient Count  
+
+### By Admission Type
+- Average LOS  
+- Average Cost  
+- Patient Volume  
+
+### By Insurance Provider
+- Average Billing  
+- Average LOS  
+- Patient Volume  
+
+These KPIs feed directly into the Excel dashboard.
+
+---
+
+## 📉 Key Insights
+- Certain medical conditions drive **higher average billing** and longer stays  
+- **Emergency admissions** show higher LOS compared to elective visits  
+- Clear **seasonal trends** in monthly patient admissions  
+- Insurance providers differ in **average cost and utilization patterns**  
+- Older age groups tend to have **longer hospital stays**  
+- Variation in **test outcomes by condition**  
+
+---
+
+## 📊 Excel Dashboard
+The Excel file contains:
+- Pivot tables built on the cleaned dataset  
+- KPI summary cards  
+- Visual charts for:
+  - Billing by condition  
+  - LOS by admission type  
+  - Insurance cost comparison  
+  - Patient demographics  
+
+Designed for **non-technical stakeholders** to explore healthcare performance interactively.
+
+---
+
+## 🛠️ Tech Stack
+**Python**
+- pandas  
+- numpy  
+- matplotlib  
+- seaborn  
+
+**Excel**
+- Pivot Tables  
+- KPI Cards  
+- Interactive Charts  
+
+---
+
+## ▶️ How to Run the Project
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/healthcare-analysis.git
+cd healthcare-analysis
+
+---
 
 ## 📌 Project Overview
 
