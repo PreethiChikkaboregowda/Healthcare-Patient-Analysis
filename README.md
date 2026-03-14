@@ -290,7 +290,7 @@ jupyter notebook notebooks/healthcare_analysis.ipynb
 
 ## 📬 Contact
 
-Feel free to connect with me on [LinkedIn](https://linkedin.com/in/yourprofile) or reach out via [GitHub](https://github.com/yourusername).
+Feel free to connect with me on [LinkedIn]((https://www.linkedin.com/in/preethigc/)) or reach out via [GitHub](https://github.com/PreethiChikkaboregowda).
 
 ---
 
