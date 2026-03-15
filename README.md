@@ -103,13 +103,17 @@ Multiple visualizations were created to highlight trends and distributions withi
 
 The analysis includes visualizations such as:
 
-* Age Distribution of Patients
-* Billing Amount Distribution
-* Medical Condition Frequency
-* Admission Type Distribution
-* Length of Stay Analysis
+### Age Distribution
+![Age Distribution](visuals/age_distribution.png)
 
-*(Charts available in the Jupyter Notebook)*
+### Billing Amount Distribution
+![Billing](visuals/Billing_by_Medical_condition.png)
+
+### Admission Type Distribution
+![Admission](visuals/admission_type.png)
+
+### Monthly Admission Trend
+![Monthly](visuals/Monthly_admission_trend.png)
 
 ---
 
