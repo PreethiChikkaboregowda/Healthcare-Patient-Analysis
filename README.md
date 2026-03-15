@@ -124,6 +124,7 @@ Healthcare-Patient-Analysis
 │
 ├── Healthcare Analysis.ipynb
 ├── healthcare_cleaned_dataset.xlsx
+├── visuals
 └── README.md
 ```
 
