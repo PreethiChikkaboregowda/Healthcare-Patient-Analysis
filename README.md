@@ -113,7 +113,7 @@ The analysis includes visualizations such as:
 ![Admission](visuals/admission_type.png)
 
 ### Monthly Admission Trend
-![Monthly](visuals/Monthly_admission_trend.png)
+![Monthly](visuals/Monthly_admissions_trend.png)
 
 ---
 
